@@ -17,6 +17,20 @@
 		E6E73F4D2C2E83BA00C5FED3 /* Danam2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E73F4C2C2E83BA00C5FED3 /* Danam2_0Tests.swift */; };
 		E6E73F572C2E83BA00C5FED3 /* Danam2_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E73F562C2E83BA00C5FED3 /* Danam2_0UITests.swift */; };
 		E6E73F592C2E83BA00C5FED3 /* Danam2_0UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E73F582C2E83BA00C5FED3 /* Danam2_0UITestsLaunchTests.swift */; };
+		E6E73F692C2E894A00C5FED3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E73F652C2E893900C5FED3 /* LoginViewController.swift */; };
+		E6E73F6A2C2E895500C5FED3 /* SignInNewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E73F672C2E894500C5FED3 /* SignInNewUserViewController.swift */; };
+		E6E73F702C2E912E00C5FED3 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E6E73F6F2C2E912E00C5FED3 /* FirebaseAuth */; };
+		E6E73F722C2E93F600C5FED3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6E73F712C2E93F600C5FED3 /* GoogleService-Info.plist */; };
+		E6E73F752C2EB6D600C5FED3 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = E6E73F742C2EB6D600C5FED3 /* FirebaseDatabase */; };
+		E6E73F772C2EB6D600C5FED3 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E6E73F762C2EB6D600C5FED3 /* FirebaseDatabaseSwift */; };
+		E6E73F792C2EB6D600C5FED3 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E6E73F782C2EB6D600C5FED3 /* FirebaseStorage */; };
+		E6E73F7B2C2EB82600C5FED3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E73F7A2C2EB82600C5FED3 /* HomeViewController.swift */; };
+		E6E73FCD2C2FD87100C5FED3 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E73FCC2C2FD87100C5FED3 /* DataModel.swift */; };
+		E6E73FD12C2FDB0900C5FED3 /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E73FD02C2FDB0900C5FED3 /* TransactionTableViewCell.swift */; };
+		E6E73FD42C2FE03800C5FED3 /* JsonDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E73FD32C2FE03800C5FED3 /* JsonDecoder.swift */; };
+		E6E73FD62C2FFDDC00C5FED3 /* LoginCredentialsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E73FD52C2FFDDC00C5FED3 /* LoginCredentialsDelegate.swift */; };
+		E6E73FD82C30091200C5FED3 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E73FD72C30091200C5FED3 /* TabBarViewController.swift */; };
+		E6E73FDA2C303A6500C5FED3 /* AddNewExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E73FD92C303A6500C5FED3 /* AddNewExpenseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +65,16 @@
 		E6E73F522C2E83BA00C5FED3 /* Danam2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Danam2.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E73F562C2E83BA00C5FED3 /* Danam2_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Danam2_0UITests.swift; sourceTree = "<group>"; };
 		E6E73F582C2E83BA00C5FED3 /* Danam2_0UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Danam2_0UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E6E73F652C2E893900C5FED3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E6E73F672C2E894500C5FED3 /* SignInNewUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInNewUserViewController.swift; sourceTree = "<group>"; };
+		E6E73F712C2E93F600C5FED3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E6E73F7A2C2EB82600C5FED3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E6E73FCC2C2FD87100C5FED3 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		E6E73FD02C2FDB0900C5FED3 /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
+		E6E73FD32C2FE03800C5FED3 /* JsonDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDecoder.swift; sourceTree = "<group>"; };
+		E6E73FD52C2FFDDC00C5FED3 /* LoginCredentialsDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCredentialsDelegate.swift; sourceTree = "<group>"; };
+		E6E73FD72C30091200C5FED3 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TabBarViewController.swift; path = ../View/TabBarViewController.swift; sourceTree = "<group>"; };
+		E6E73FD92C303A6500C5FED3 /* AddNewExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewExpenseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6E73F772C2EB6D600C5FED3 /* FirebaseDatabaseSwift in Frameworks */,
+				E6E73F792C2EB6D600C5FED3 /* FirebaseStorage in Frameworks */,
+				E6E73F752C2EB6D600C5FED3 /* FirebaseDatabase in Frameworks */,
+				E6E73F702C2E912E00C5FED3 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,14 +129,15 @@
 		E6E73F312C2E83B900C5FED3 /* Danam2.0 */ = {
 			isa = PBXGroup;
 			children = (
-				E6E73F322C2E83B900C5FED3 /* AppDelegate.swift */,
-				E6E73F342C2E83B900C5FED3 /* SceneDelegate.swift */,
-				E6E73F362C2E83B900C5FED3 /* ViewController.swift */,
-				E6E73F382C2E83B900C5FED3 /* Main.storyboard */,
+				E6E73FD22C2FDB1F00C5FED3 /* CustomView */,
+				E6E73FCB2C2FD85900C5FED3 /* Model */,
+				E6E73F7D2C2FBBA000C5FED3 /* Resources */,
+				E6E73F732C2E998300C5FED3 /* View */,
+				E6E73F6B2C2E896300C5FED3 /* Controller */,
 				E6E73F3E2C2E83BA00C5FED3 /* Assets.xcassets */,
-				E6E73F402C2E83BA00C5FED3 /* LaunchScreen.storyboard */,
 				E6E73F432C2E83BA00C5FED3 /* Info.plist */,
 				E6E73F3B2C2E83B900C5FED3 /* Danam2_0.xcdatamodeld */,
+				E6E73F712C2E93F600C5FED3 /* GoogleService-Info.plist */,
 			);
 			path = Danam2.0;
 			sourceTree = "<group>";
@@ -130,6 +159,63 @@
 			path = Danam2.0UITests;
 			sourceTree = "<group>";
 		};
+		E6E73F6B2C2E896300C5FED3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E6E73FD72C30091200C5FED3 /* TabBarViewController.swift */,
+				E6E73F7A2C2EB82600C5FED3 /* HomeViewController.swift */,
+				E6E73F7C2C2FBB5F00C5FED3 /* Login SignUp */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E6E73F732C2E998300C5FED3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E6E73F402C2E83BA00C5FED3 /* LaunchScreen.storyboard */,
+				E6E73F382C2E83B900C5FED3 /* Main.storyboard */,
+				E6E73FD92C303A6500C5FED3 /* AddNewExpenseViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E6E73F7C2C2FBB5F00C5FED3 /* Login SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				E6E73F362C2E83B900C5FED3 /* ViewController.swift */,
+				E6E73F652C2E893900C5FED3 /* LoginViewController.swift */,
+				E6E73F672C2E894500C5FED3 /* SignInNewUserViewController.swift */,
+			);
+			path = "Login SignUp";
+			sourceTree = "<group>";
+		};
+		E6E73F7D2C2FBBA000C5FED3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E6E73F342C2E83B900C5FED3 /* SceneDelegate.swift */,
+				E6E73F322C2E83B900C5FED3 /* AppDelegate.swift */,
+				E6E73FD52C2FFDDC00C5FED3 /* LoginCredentialsDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E6E73FCB2C2FD85900C5FED3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E6E73FCC2C2FD87100C5FED3 /* DataModel.swift */,
+				E6E73FD32C2FE03800C5FED3 /* JsonDecoder.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E6E73FD22C2FDB1F00C5FED3 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				E6E73FD02C2FDB0900C5FED3 /* TransactionTableViewCell.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +232,12 @@
 			dependencies = (
 			);
 			name = Danam2.0;
+			packageProductDependencies = (
+				E6E73F6F2C2E912E00C5FED3 /* FirebaseAuth */,
+				E6E73F742C2EB6D600C5FED3 /* FirebaseDatabase */,
+				E6E73F762C2EB6D600C5FED3 /* FirebaseDatabaseSwift */,
+				E6E73F782C2EB6D600C5FED3 /* FirebaseStorage */,
+			);
 			productName = Danam2.0;
 			productReference = E6E73F2F2C2E83B900C5FED3 /* Danam2.0.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +310,9 @@
 				Base,
 			);
 			mainGroup = E6E73F262C2E83B900C5FED3;
+			packageReferences = (
+				E6E73F6E2C2E912E00C5FED3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = E6E73F302C2E83B900C5FED3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6E73F3F2C2E83BA00C5FED3 /* Assets.xcassets in Resources */,
+				E6E73F722C2E93F600C5FED3 /* GoogleService-Info.plist in Resources */,
 				E6E73F422C2E83BA00C5FED3 /* Base in Resources */,
 				E6E73F3A2C2E83B900C5FED3 /* Base in Resources */,
 			);
@@ -263,7 +359,16 @@
 			files = (
 				E6E73F372C2E83B900C5FED3 /* ViewController.swift in Sources */,
 				E6E73F332C2E83B900C5FED3 /* AppDelegate.swift in Sources */,
+				E6E73FCD2C2FD87100C5FED3 /* DataModel.swift in Sources */,
+				E6E73F6A2C2E895500C5FED3 /* SignInNewUserViewController.swift in Sources */,
+				E6E73FD82C30091200C5FED3 /* TabBarViewController.swift in Sources */,
 				E6E73F352C2E83B900C5FED3 /* SceneDelegate.swift in Sources */,
+				E6E73F692C2E894A00C5FED3 /* LoginViewController.swift in Sources */,
+				E6E73FD42C2FE03800C5FED3 /* JsonDecoder.swift in Sources */,
+				E6E73FD12C2FDB0900C5FED3 /* TransactionTableViewCell.swift in Sources */,
+				E6E73F7B2C2EB82600C5FED3 /* HomeViewController.swift in Sources */,
+				E6E73FD62C2FFDDC00C5FED3 /* LoginCredentialsDelegate.swift in Sources */,
+				E6E73FDA2C303A6500C5FED3 /* AddNewExpenseViewController.swift in Sources */,
 				E6E73F3D2C2E83B900C5FED3 /* Danam2_0.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,8 +556,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,8 +582,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -605,6 +708,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E6E73F6E2C2E912E00C5FED3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E6E73F6F2C2E912E00C5FED3 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E6E73F6E2C2E912E00C5FED3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		E6E73F742C2EB6D600C5FED3 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E6E73F6E2C2E912E00C5FED3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		E6E73F762C2EB6D600C5FED3 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E6E73F6E2C2E912E00C5FED3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		E6E73F782C2EB6D600C5FED3 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E6E73F6E2C2E912E00C5FED3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		E6E73F3B2C2E83B900C5FED3 /* Danam2_0.xcdatamodeld */ = {
