@@ -144,13 +144,38 @@ class AddNewExpenseViewController: UIViewController {
         let transaction = Transaction(userId: "trans" + userData.uid, amount: amount  , category: categoryTextField.text ?? "No option", date: formatDate(dateTextField.date), description: descriptionTextField.text ?? "No description")
         
         let transDict = convertTransactionToDictionary(transaction)
-        
         let tranChangeInUser: [String: Bool] = [
                 transactionId : true
          ]
         
+        updateExpectedAmount(amount)
+        
         databaseRef.child("transactions").child(transactionId).setValue(transDict)
         databaseRef.child("Users").child(userData.uid).child("transaction").updateChildValues(tranChangeInUser)
+    }
+    
+    
+    func updateExpectedAmount(_ amount : Double){
+        let userRef = databaseRef.child("Users").child(userData.uid)
+        
+        // Read the current expectedAmount
+        userRef.child("expectedAmount").observeSingleEvent(of: .value) { snapshot in
+            if let currentExpectedAmount = snapshot.value as? Double {
+                
+                let newExpectedAmount = currentExpectedAmount - amount
+                
+                // Update the database with the new expectedAmount
+                userRef.child("expectedAmount").setValue(newExpectedAmount) { error, _ in
+                    if let error = error {
+                        print("Error updating expectedAmount: \(error.localizedDescription)")
+                    } else {
+                        print("expectedAmount updated successfully to \(newExpectedAmount)")
+                    }
+                }
+            } else {
+                print("Error: expectedAmount not found or not a valid number")
+            }
+        }
     }
     
     func convertTransactionToDictionary(_ transaction: Transaction) -> [String: Any] {
@@ -169,6 +194,7 @@ class AddNewExpenseViewController: UIViewController {
             dateFormatter.dateFormat = "yyyy-MM-dd" // Set the desired date format
             return dateFormatter.string(from: datePicked)
     }
+    
 }
 
 // MARK: - UIPickerViewDataSource, UIPickerViewDelegate
